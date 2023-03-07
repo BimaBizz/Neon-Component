@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "NEONLED";
+  src: url("/src/NEONLEDLight.otf");
+}
+@font-face {
+  font-family: "Lite";
+  src: url("/src/LasEnter_PersonalUseOnly.ttf");
+}
+
+.nav {
+  @apply flex absolute z-20 items-center py-3 px-6 h-fit w-full top-0;
+}
+
+.intro {
+  @apply relative w-[60%] px-6;
+}
+
+.image {
+  @apply absolute h-screen w-[40%] right-0 -z-10;
+}
+.title {
+  @apply text-center text-3xl bg-gradient-to-bl from-blue-500 to-pink-400 font-LED font-bold bg-clip-text text-transparent;
+}
+
+.items {
+  @apply grid grid-cols-3 gap-5 my-20;
+}
+
+.isian {
+  @apply block space-y-5 w-1/2 mx-4 order-2;
+}
+
+.gambaran {
+  @apply grid grid-cols-2 grid-rows-2 place-items-center gap-5 w-1/2;
+}
+
+.subs {
+  @apply py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6;
+}
+
+.icons {
+  @apply mb-6 flex justify-center;
+}
