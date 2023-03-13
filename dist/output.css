@@ -533,10 +533,6 @@ video {
   position: relative;
 }
 
-.sticky{
-  position: sticky;
-}
-
 .inset-y-0{
   top: 0px;
   bottom: 0px;
@@ -660,16 +656,6 @@ video {
 
 .h-screen{
   height: 100vh;
-}
-
-.min-h-max{
-  min-height: -moz-max-content;
-  min-height: max-content;
-}
-
-.min-h-min{
-  min-height: -moz-min-content;
-  min-height: min-content;
 }
 
 .min-h-screen{
@@ -1023,6 +1009,11 @@ video {
   color: rgb(96 165 250 / var(--tw-text-opacity));
 }
 
+.text-blue-500{
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
 .text-cyan-500{
   --tw-text-opacity: 1;
   color: rgb(6 182 212 / var(--tw-text-opacity));
@@ -1061,11 +1052,6 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-blue-500{
-  --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity));
 }
 
 .shadow{
@@ -1313,9 +1299,5 @@ video {
 
   .lg\:overflow-visible{
     overflow: visible;
-  }
-
-  .lg\:overflow-scroll{
-    overflow: scroll;
   }
 }
